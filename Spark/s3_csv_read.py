@@ -37,5 +37,3 @@ df = load_table.alias("df")
 # set table as distinct
 df = df.distinct().cache()
 
-
-
