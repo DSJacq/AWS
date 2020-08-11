@@ -52,4 +52,4 @@ for i in myList:
     # Apply the function create_folder
     create_folder(file_name, folder_name)
         
-print("Finished deleting files from folder A.")
+print("Finished deleting files from folder.")
