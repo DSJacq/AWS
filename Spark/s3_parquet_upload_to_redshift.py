@@ -38,3 +38,4 @@ datasink1 = glueContext.write_dynamic_frame.from_jdbc_conf(frame = glue_dynamic_
             redshift_tmp_dir=redshift_tmp_dir, 
             transformation_ctx = "datasink1")
 logger.info("Upload on Redshift finished sucessfully...")
+
