@@ -57,3 +57,4 @@ for col_name in df.columns:
     df = df.withColumn(col_name, regexp_replace(col_name, ",", "."))
 
 df = df.distinct().cache()
+
