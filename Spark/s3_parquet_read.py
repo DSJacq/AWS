@@ -17,3 +17,4 @@ df_raw = spark.read.parquet("s3://bucket/folder/folder/*")
 
 # read parquet data from S3 using glueContext
 df = df_raw.cache()
+
