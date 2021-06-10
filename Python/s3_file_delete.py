@@ -53,4 +53,3 @@ for i in myList:
     create_folder(file_name, folder_name)
         
 print("Finished deleting files from folder.")
-
