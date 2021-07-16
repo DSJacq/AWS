@@ -81,3 +81,5 @@ glueContext.write_dynamic_frame.from_options(dynamic_frame2, connection_type="do
                                              connection_options=write_documentdb_options)
 
 job.commit()
+
+
